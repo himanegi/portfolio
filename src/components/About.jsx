@@ -28,7 +28,7 @@ export function About() {
           <div className="md:w-1/2 flex justify-center">
             <div className="w-80 h-80 rounded-full bg-green-50 flex items-center justify-center overflow-hidden">
               <img
-                src="user.jpeg"
+                src="user.jpg"
                 alt="Himanshu Negi"
                 className="w-full h-full object-cover"
               />
