@@ -110,7 +110,7 @@ export default function App() {
           id="skills"
           className="container mx-auto px-4 py-16 mb-20 scroll-mt-16"
         >
-          <h2 className="flex justify-center text-3xl font-bold mb-6">
+          <h2 className="flex justify-center text-3xl font-bold mb-14">
             Skills
           </h2>
           <div className="flex flex-wrap gap-2 justify-center">
@@ -144,7 +144,7 @@ export default function App() {
           className="rounded-xl py-16 mb-20 bg-gray-100 scroll-mt-16"
         >
           <div className="container mx-auto px-4">
-            <h2 className="flex justify-center text-3xl font-bold mb-6">
+            <h2 className="flex justify-center text-3xl font-bold mb-14">
               Projects
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
