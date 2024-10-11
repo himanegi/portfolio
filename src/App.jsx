@@ -31,7 +31,7 @@ const projects = [
     description:
       "AI-powered code analysis and optimization tool for improving algorithmic problem-solving skills.",
     technologies: ["C++", "Regex", "Javascript", "Extension API"],
-    liveLink: "https://leetsouls.example.com",
+    liveLink: "",
     githubLink: "https://github.com/himanegi/leetsouls",
   },
 ];
@@ -169,7 +169,7 @@ export default function App() {
                     </div>
                     <div className="flex justify-between transition-opacity duration-300">
                       <a
-                        href={project.liveLink}
+                        href={project.liveLink || undefined}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full"
@@ -178,6 +178,7 @@ export default function App() {
                           variant="outline"
                           size="sm"
                           className="flex items-center justify-center w-full"
+                          disabled={!project.liveLink}
                         >
                           <ExternalLink className="w-4 h-4 mr-2" />
                           Live Demo
