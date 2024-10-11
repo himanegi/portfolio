@@ -9,7 +9,7 @@ const projects = [
     imgSrc: "image1.jpg",
     altText: "Hitch Hike 2.0",
     description:
-      "A modern ride-sharing platform with real-time tracking and advanced matching algorithms.",
+      "A web application designed to connect drivers and passengers looking for rides. It aims to reduce the environmental impact by encouraging carpooling and sharing rides.",
     technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
     liveLink: "https://hitchhike2.vercel.app/",
     githubLink: "https://github.com/himanegi/hitch-hike-2.0",
@@ -19,7 +19,7 @@ const projects = [
     imgSrc: "image2.jpg",
     altText: "Coin Canvas",
     description:
-      "An interactive cryptocurrency visualization tool with real-time price updates and historical data analysis.",
+      "An expense management tool that tracks transactions, manages investments, and visualizes financial data with charts, integrating cryptocurrency and stock market data.",
     technologies: ["Handlebars", "Node.js", "Express", "MongoDB"],
     liveLink: "",
     githubLink: "https://github.com/himanegi/coin-canvas",
@@ -29,7 +29,7 @@ const projects = [
     imgSrc: "image3.jpg",
     altText: "LeetSouls: Code Extractor",
     description:
-      "AI-powered code analysis and optimization tool for improving algorithmic problem-solving skills.",
+      "LeetSouls is a browser extension that extracts code from LeetCode contest problems and converts it into an editable C++ template, ready for use in your preferred IDE.",
     technologies: ["C++", "Regex", "Javascript", "Extension API"],
     liveLink: "",
     githubLink: "https://github.com/himanegi/leetsouls",
