@@ -1,11 +1,11 @@
 import { Badge } from "@/components/ui/badge";
-import { useRef } from "react";
-export function Skills() {
-  const skillsRef = useRef(null);
+import { forwardRef } from "react";
+
+export const Skills = forwardRef(function Skills(props, ref) {
   return (
     <>
       <section
-        ref={skillsRef}
+        ref={ref}
         id="skills"
         className="container mx-auto px-4 py-16 mb-20 scroll-mt-16"
       >
@@ -36,4 +36,4 @@ export function Skills() {
       </section>
     </>
   );
-}
+});

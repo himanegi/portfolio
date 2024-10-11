@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
-import { useRef } from "react";
+import { forwardRef } from "react";
 
 const projects = [
   {
@@ -36,13 +36,11 @@ const projects = [
   },
 ];
 
-export function Projects() {
-  const projectsRef = useRef(null);
-
+export const Projects = forwardRef(function Projects(props, ref) {
   return (
     <>
       <section
-        ref={projectsRef}
+        ref={ref}
         id="projects"
         className="rounded-xl py-16 mb-20 bg-gray-100 scroll-mt-16"
       >
@@ -112,4 +110,4 @@ export function Projects() {
       </section>
     </>
   );
-}
+});

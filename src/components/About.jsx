@@ -1,15 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { useRef } from "react";
 
 export function About() {
-  const aboutRef = useRef(null);
   return (
     <>
-      <section
-        ref={aboutRef}
-        id="about"
-        className="container mx-auto px-4 py-16 mt-10 scroll-m-20"
-      >
+      <section id="about" className="container mx-auto px-4 py-16 mt-10">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="px-20 md:w-1/2 mb-8 md:mb-0">
             <h1 className="text-5xl font-bold mb-4">Himanshu Negi</h1>

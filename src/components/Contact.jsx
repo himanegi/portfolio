@@ -1,13 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
-import { useRef } from "react";
+import { forwardRef } from "react";
 
-export function Contact() {
-  const contactRef = useRef(null);
+export const Contact = forwardRef(function Contact(props, ref) {
   return (
     <>
       <section
-        ref={contactRef}
+        ref={ref}
         id="contact"
         className="container mx-auto px-4 py-16 mb-20"
       >
@@ -58,4 +57,4 @@ export function Contact() {
       </section>
     </>
   );
-}
+});
