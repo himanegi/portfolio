@@ -8,7 +8,7 @@ export function About() {
       <section
         ref={aboutRef}
         id="about"
-        className="container mx-auto px-4 py-16 mb-20 scroll-m-20"
+        className="container mx-auto px-4 py-16 mt-10 scroll-m-20"
       >
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="px-20 md:w-1/2 mb-8 md:mb-0">
